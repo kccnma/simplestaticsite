@@ -34,4 +34,4 @@ npm run build:dist
 
 ## License
 
-The code is available under the [MIT license](LICENSE).
+The original code is available under the [MIT license](LICENSE).

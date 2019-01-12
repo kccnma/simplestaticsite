@@ -1,0 +1,29 @@
+// Add your styles here
+$bgcolor: #ddd;
+
+body {
+  background: $bgcolor;
+}
+
+.menu-button {
+  border: 1px solid black;
+  padding: 0.5em;
+  display: inline-block;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.mainnav {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+
+  &.expanded {
+    position: static;
+    top: auto;
+    left: auto;
+  }
+}
+

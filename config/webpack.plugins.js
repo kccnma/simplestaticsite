@@ -67,7 +67,7 @@ const generateHTMLPlugins = () => glob.sync('./src/**/*.html').map((dir) => {
     filename,
     template: path.join(config.root, config.paths.src, filename),
     meta: {
-      viewport: 'width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no',
+      viewport: 'width=device-width, initial-scale=1',
     },
   });
 });
